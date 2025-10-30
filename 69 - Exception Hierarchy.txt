@@ -1,0 +1,9 @@
+Object class - All classes in Java extend the object class by default.
+
+Throwable class extends the Object class. Usually in java , the names that end with 'able' suffix are interfaced and the only exception to this is the throwable class.
+
+Classes Exception and Error, both of them extend the Throwable class.
+
+Exceptions can be handled and if we do, the program does not stop but errors, we can't handle the errors, and they simply break the program. Example of errors that can;t be handles: IO error, thread death error, virtual machine error, out of memory error.
+
+Many different exceptions extend the exception class. All runtime exceptions are unchecked exceptions while others are checked exceptions. Checked exceptions are the ones we got to handle.

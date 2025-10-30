@@ -1,0 +1,11 @@
+Inheritance is a fundamental concept in Object-Oriented Programming (OOPS) that allows one class to inherit the properties and behavior of another class.
+
+Why do we need Inheritance?
+
+Inheritance helps to:
+
+Promote code reuse: By inheriting the common attributes and methods from a parent class, we can avoid duplicating code in multiple classes.
+Establish a hierarchy: Inheritance helps to create a hierarchy of classes, where a child class inherits the properties and behavior of a parent class, and can also add new features or override existing ones.
+Improve modularity: Inheritance enables us to break down complex systems into smaller, more manageable classes, each with its own specific responsibilities.
+
+Parent class, Base Class, Super Class  -> Child CLass, Sub Class, Base CLass

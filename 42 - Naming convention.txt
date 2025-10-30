@@ -1,0 +1,9 @@
+Classes and interfaces have first lette of their name capital(they follow camel casing):  Calc, MyData
+Variables and methods have small letter (for multiple words we follow camel casing) - marks, show()    
+Constants have all capital letters - PIE, BRAND       
+
+
+Camel Casing (preferred in Java):
+showMyMarks() : first letter of each word is capital from second word
+
+

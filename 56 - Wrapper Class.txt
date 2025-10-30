@@ -1,0 +1,33 @@
+In Java, primitive data types (like int, double, boolean, etc.) are not objects. They are stored as raw values in memory. However, sometimes we need to treat these primitive values as objects, so we can use them in certain situations, like:
+
+Storing them in collections (like ArrayList)
+Passing them to methods that expect objects
+Using them with operators that work with objects (like ==)
+That's where Wrapper Classes come in. A wrapper class is a class that "wraps" a primitive value in an object. For example:
+
+Integer is a wrapper class for int
+Double is a wrapper class for double
+Boolean is a wrapper class for boolean
+Each wrapper class has a constructor that takes a primitive value as an argument, and methods to get the primitive value back.
+
+Why do we need Wrapper Classes?
+
+We need wrapper classes because Java is an object-oriented language, and many of its features (like collections, generics, and operators) work with objects, not primitive values. By wrapping primitive values in objects, we can use them with these features.
+
+Autoboxing and Unboxing
+
+Autoboxing is the process of automatically converting a primitive value to its corresponding wrapper class object. For example:
+
+int -> Integer
+double -> Double
+boolean -> Boolean
+Unboxing is the opposite process: converting a wrapper class object back to its primitive value.
+
+Java 5 and later versions support autoboxing and unboxing, which means you don't need to explicitly create wrapper class objects or convert them back to primitive values. The compiler does it for you.
+
+For e.g. :
+int x = 10; // primitive value
+Integer wrapperX = x; // autoboxing: int -> Integer
+int y = wrapperX; // unboxing: Integer -> int
+
+In this example, the int value x is automatically converted to an Integer object wrapperX when assigned. Then, when we assign wrapperX back to an int variable y, the Integer object is automatically converted back to an int value. However, keep in mind that autoboxing and unboxing can lead to performance issues if not used carefully, since they involve creating and destroying objects.
